@@ -18,4 +18,5 @@ Pod::Spec.new do |s|
   s.vendored_frameworks = 'AliyunNlsClientSDK/NlsClientSDK.framework'
   s.ios.frameworks   = 'CoreGraphics', 'Security', 'Foundation', 'UIKit', 'CFNetwork', 'AVFoundation', 'AudioToolbox', 'SystemConfiguration', 'QuartzCore'
   s.ios.libraries = 'icucore'
+  s.pod_target_xcconfig = { "OTHER_LDFLAGS" => '-ObjC'}
 end
