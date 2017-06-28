@@ -8,16 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		8685A37B1F0389FD00C93F56 /* AliyunNlsClientSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 8685A3791F0389FD00C93F56 /* AliyunNlsClientSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8685A3821F038A4C00C93F56 /* NlsClientSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8685A3811F038A4C00C93F56 /* NlsClientSDK.framework */; };
+		8685A3861F03B1FF00C93F56 /* NlsRealtimeSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8685A3851F03B1FF00C93F56 /* NlsRealtimeSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		8685A3761F0389FD00C93F56 /* AliyunNlsClientSDK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AliyunNlsClientSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8685A3791F0389FD00C93F56 /* AliyunNlsClientSDK.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AliyunNlsClientSDK.h; sourceTree = "<group>"; };
 		8685A37A1F0389FD00C93F56 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8685A3811F038A4C00C93F56 /* NlsClientSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NlsClientSDK.framework; sourceTree = "<group>"; };
 		8685A3831F038A5A00C93F56 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8685A3841F038A7E00C93F56 /* AliyunNlsClientSDK.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = AliyunNlsClientSDK.podspec; sourceTree = "<group>"; };
+		8685A3851F03B1FF00C93F56 /* NlsRealtimeSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = NlsRealtimeSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -25,7 +25,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8685A3821F038A4C00C93F56 /* NlsClientSDK.framework in Frameworks */,
+				8685A3861F03B1FF00C93F56 /* NlsRealtimeSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -54,7 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				8685A3791F0389FD00C93F56 /* AliyunNlsClientSDK.h */,
-				8685A3811F038A4C00C93F56 /* NlsClientSDK.framework */,
+				8685A3851F03B1FF00C93F56 /* NlsRealtimeSDK.framework */,
 				8685A37A1F0389FD00C93F56 /* Info.plist */,
 			);
 			path = AliyunNlsClientSDK;
@@ -302,6 +302,7 @@
 				8685A3801F0389FD00C93F56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
