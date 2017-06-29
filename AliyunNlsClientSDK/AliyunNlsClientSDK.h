@@ -16,4 +16,7 @@ FOUNDATION_EXPORT const unsigned char AliyunNlsClientSDKVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <AliyunNlsClientSDK/PublicHeader.h>
 
-
+#import <NlsRealtimeSDK/NlsRecognizerResult.h>
+#import <NlsRealtimeSDK/NlsRecognizer.h>
+#import <NlsRealtimeSDK/NlsRequest.h>
+#import <NlsRealtimeSDK/NlsRequestContext.h>
